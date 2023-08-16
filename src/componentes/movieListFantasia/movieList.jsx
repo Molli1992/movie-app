@@ -26,7 +26,7 @@ function MovieList() {
                         <button className="movie-list-item-button">Watch</button>
                     </div>
                     <div className="movie-list-item">
-                        <img className="movie-list-item-img" src={IMG2} alt="AmorYMonstruosIMG"/>
+                        <img className="movie-list-item-img" src={IMG2} alt="AmorYMonstruos"/>
                         <span className="movie-list-item-title">Amor y Monstruos</span>
                         <p className="movie-list-item-desc">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus mollitia 
@@ -53,7 +53,7 @@ function MovieList() {
                         <button className="movie-list-item-button">Watch</button>
                     </div>
                     <div className="movie-list-item">
-                        <img className="movie-list-item-img" src={IMG5} alt="MaquinasMortalesIMG"/>
+                        <img className="movie-list-item-img" src={IMG5} alt="MaquinasMortales"/>
                         <span className="movie-list-item-title">Maquinas Mortales</span>
                         <p className="movie-list-item-desc">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus mollitia 
@@ -62,7 +62,7 @@ function MovieList() {
                         <button className="movie-list-item-button">Watch</button>
                     </div>
                     <div className="movie-list-item">
-                        <img className="movie-list-item-img" src={IMG6} alt="PesadillasIMG"/>
+                        <img className="movie-list-item-img" src={IMG6} alt="Pesadillas"/>
                         <span className="movie-list-item-title">Pesadillas</span>
                         <p className="movie-list-item-desc">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus mollitia 
