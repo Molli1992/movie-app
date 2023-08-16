@@ -1,0 +1,29 @@
+.featured-content{
+    height: 50vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), #151515),
+    url("https://static.vecteezy.com/system/resources/previews/003/228/038/non_2x/halloween-background-chain-with-dark-red-background-free-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.featured-tittle{
+    width: 200px;
+}
+
+.featured-desc{
+    color: lightgray;
+    width: 500px;
+    margin: 30px 0px;
+}
+
+.featured-button{
+    background-color: #4dbf00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
