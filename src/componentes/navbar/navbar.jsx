@@ -19,7 +19,7 @@ function Navbar() {
             </ul>
           </div>
           <div className="profile-container">
-            <img className="profile-picture" src={ProfileIMG} alt="profile-picture"/>
+            <img className="profile-picture" src={ProfileIMG} alt="profile"/>
             <div className="profile-text-container">
               <span className="profile-text">Profile</span>
               <i className="fas fa-caret-down navbar-icon"></i>
