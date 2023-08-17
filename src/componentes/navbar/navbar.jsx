@@ -1,11 +1,8 @@
 import React from "react";
 import "./navbar.css";
-import ProfileIMG from "../../imagenes/profile/profile-img.jpg";
+import { Link } from "react-router-dom";
 
 function Navbar() {
-  const onClick = () => {
-    window.location.href = "/";
-  }
   return (
     <div className="navbar">
       <div className="navbar-container">
@@ -14,19 +11,11 @@ function Navbar() {
         </div>
         <div className="menu-container">
           <ul className="menu-list">
-            <li className="menu-list-item active" onClick={onClick}>Home</li>
-            <li className="menu-list-item">Movies</li>
-            <li className="menu-list-item">Series</li>
-            <li className="menu-list-item">Popular</li>
-            <li className="menu-list-item">Trends</li>
+            <Link to="/" className="menu-list-item">
+              Inicio
+            </Link>
+            <Link to="/foro" className="menu-list-item">Foro</Link>
           </ul>
-        </div>
-        <div className="profile-container">
-          <img className="profile-picture" src={ProfileIMG} alt="profile" />
-          <div className="profile-text-container">
-            <span className="profile-text">Profile</span>
-            <i className="fas fa-caret-down navbar-icon"></i>
-          </div>
         </div>
       </div>
     </div>

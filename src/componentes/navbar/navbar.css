@@ -23,7 +23,7 @@
 }
 
 .menu-container{
-    flex: 6;
+    flex: 3;
 }
 
 .menu-list{
@@ -32,43 +32,12 @@
 }
 
 .menu-list-item{
+    text-decoration: none;
     margin-right: 30px;
     cursor: pointer;
+    color: white;
 }
 
 .menu-list-item:hover{
    color: gray;
-}
-
-.menu-list-item.active{
-    font-weight: bold;
-}
-
-.profile-container{
-    flex: 2;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.profile-picture{
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.profile-text{
-   margin-left: 20px;
-   margin-right: 5px;
-}
-
-.navbar-icon{
-    cursor: pointer;
-}
-
-@media only screen and (max-width: 765px){
-    .menu-container{
-        display: none;
-    }
 }

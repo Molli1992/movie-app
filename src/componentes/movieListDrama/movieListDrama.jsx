@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import IMG1 from "../../imagenes/drama/Apocalypse_Now.jpg";
 import IMG2 from "../../imagenes/drama/Gladiator.jpg";
 import IMG3 from "../../imagenes/drama/La_lista_de_Schindler.jpg";
@@ -34,7 +35,7 @@ function MovieListDrama() {
                 Accusamus mollitia alias obcaecati magni delectus minima
                 quisquam asperiores
               </p>
-              <button className="movie-list-item-button">Watch</button>
+              <Link to="/pelicula" className="movie-list-item-button">Watch</Link>
             </div>
             <div className="movie-list-item">
               <img className="movie-list-item-img" src={IMG2} alt="Gladiator" />
@@ -44,7 +45,7 @@ function MovieListDrama() {
                 Accusamus mollitia alias obcaecati magni delectus minima
                 quisquam asperiores
               </p>
-              <button className="movie-list-item-button">Watch</button>
+              <Link to="/pelicula" className="movie-list-item-button">Watch</Link>
             </div>
             <div className="movie-list-item">
               <img
@@ -60,7 +61,7 @@ function MovieListDrama() {
                 Accusamus mollitia alias obcaecati magni delectus minima
                 quisquam asperiores
               </p>
-              <button className="movie-list-item-button">Watch</button>
+              <Link to="/pelicula" className="movie-list-item-button">Watch</Link>
             </div>
             <div className="movie-list-item">
               <img
@@ -74,7 +75,7 @@ function MovieListDrama() {
                 Accusamus mollitia alias obcaecati magni delectus minima
                 quisquam asperiores
               </p>
-              <button className="movie-list-item-button">Watch</button>
+              <Link to="/pelicula" className="movie-list-item-button">Watch</Link>
             </div>
           </div>
         ) : (
@@ -87,7 +88,7 @@ function MovieListDrama() {
                 Accusamus mollitia alias obcaecati magni delectus minima
                 quisquam asperiores
               </p>
-              <button className="movie-list-item-button">Watch</button>
+              <Link to="/pelicula" className="movie-list-item-button">Watch</Link>
             </div>
             <div className="movie-list-item">
               <img
@@ -103,14 +104,12 @@ function MovieListDrama() {
                 Accusamus mollitia alias obcaecati magni delectus minima
                 quisquam asperiores
               </p>
-              <button className="movie-list-item-button">Watch</button>
+              <Link to="/pelicula" className="movie-list-item-button">Watch</Link>
             </div>
           </div>
         )}
 
-        <button onClick={slider}>
-          <i className="fa-solid fa-chevron-right arrow"></i>
-        </button>
+          <i className="fa-solid fa-chevron-right arrow" onClick={slider}></i>
       </div>
     </div>
   );

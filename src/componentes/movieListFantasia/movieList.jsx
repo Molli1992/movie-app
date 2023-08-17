@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./movieList.css";
+import { Link } from "react-router-dom";
 import IMG1 from "../../imagenes/fantasia/avatar-el-camino-del-agua.jpg";
 import IMG2 from "../../imagenes/fantasia/de-amor-y-monstruos.jpg";
 import IMG3 from "../../imagenes/fantasia/bella-y-bestia.jpg";
@@ -17,10 +18,6 @@ function MovieList() {
     }
   };
 
-  const onClick = () => {
-    window.location.href = "/movie";
-  }
-
   return (
     <div className="movie-list-container">
       <h1 className="movie-list-title">FANTASIA</h1>
@@ -34,7 +31,9 @@ function MovieList() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
-              <button className="movie-list-item-button" onClick={onClick}>Watch</button>
+              <Link to="/pelicula" className="movie-list-item-button">
+                Watch
+              </Link>
             </div>
             <div className="movie-list-item">
               <img
@@ -47,7 +46,9 @@ function MovieList() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
-              <button className="movie-list-item-button">Watch</button>
+              <Link to="/pelicula" className="movie-list-item-button">
+                Watch
+              </Link>
             </div>
             <div className="movie-list-item">
               <img
@@ -60,7 +61,9 @@ function MovieList() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
-              <button className="movie-list-item-button">Watch</button>
+              <Link to="/pelicula" className="movie-list-item-button">
+                Watch
+              </Link>
             </div>
             <div className="movie-list-item">
               <img
@@ -73,7 +76,9 @@ function MovieList() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
-              <button className="movie-list-item-button">Watch</button>
+              <Link to="/pelicula" className="movie-list-item-button">
+                Watch
+              </Link>
             </div>
           </div>
         ) : (
@@ -89,7 +94,9 @@ function MovieList() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
-              <button className="movie-list-item-button">Watch</button>
+              <Link to="/pelicula" className="movie-list-item-button">
+                Watch
+              </Link>
             </div>
             <div className="movie-list-item">
               <img
@@ -102,14 +109,14 @@ function MovieList() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
-              <button className="movie-list-item-button">Watch</button>
+              <Link to="/pelicula" className="movie-list-item-button">
+                Watch
+              </Link>
             </div>
           </div>
         )}
 
-        <button onClick={slider}>
-          <i className="fa-solid fa-chevron-right arrow"></i>
-        </button>
+        <i className="fa-solid fa-chevron-right arrow" onClick={slider}></i>
       </div>
     </div>
   );

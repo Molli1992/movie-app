@@ -62,6 +62,7 @@
 }
 
 .movie-list-item-button{
+    text-decoration: none;
     padding: 10px;
     background-color: #4dbf00;
     color: white;

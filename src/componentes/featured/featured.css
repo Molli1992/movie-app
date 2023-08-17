@@ -18,12 +18,51 @@
 }
 
 .featured-button{
+    text-decoration: none;
     background-color: #4dbf00;
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
     outline: none;
-    font-weight: bold;
     cursor: pointer;
+}
+
+.container-filtros-features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-filtro{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+.link-filtro:hover{
+    color: gray;
+}
+
+@media(max-width: 715px) {
+
+    .container-filtros-features{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 50px;
+        gap: 10px;
+    }
+
+}
+
+@media(max-width: 485px) {
+
+    .container-filtros-features{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 50px;
+        margin-top: 30px;
+        gap: 10px;
+    }
+
 }
