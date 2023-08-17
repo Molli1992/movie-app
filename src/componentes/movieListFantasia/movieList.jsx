@@ -29,7 +29,6 @@ function MovieList() {
               <p className="movie-list-item-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
-                quisquam asperiores
               </p>
               <button className="movie-list-item-button">Watch</button>
             </div>
@@ -43,7 +42,6 @@ function MovieList() {
               <p className="movie-list-item-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
-                quisquam asperiores
               </p>
               <button className="movie-list-item-button">Watch</button>
             </div>
@@ -57,7 +55,6 @@ function MovieList() {
               <p className="movie-list-item-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
-                quisquam asperiores
               </p>
               <button className="movie-list-item-button">Watch</button>
             </div>
@@ -71,7 +68,6 @@ function MovieList() {
               <p className="movie-list-item-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
-                quisquam asperiores
               </p>
               <button className="movie-list-item-button">Watch</button>
             </div>
@@ -88,7 +84,6 @@ function MovieList() {
               <p className="movie-list-item-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
-                quisquam asperiores
               </p>
               <button className="movie-list-item-button">Watch</button>
             </div>
@@ -102,7 +97,6 @@ function MovieList() {
               <p className="movie-list-item-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
-                quisquam asperiores
               </p>
               <button className="movie-list-item-button">Watch</button>
             </div>
