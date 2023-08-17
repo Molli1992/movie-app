@@ -11,8 +11,7 @@
 }
 
 .movie-list{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     align-items: center;
     height: 300px;
 }
@@ -95,74 +94,4 @@
 
 .arrow:hover{
     color: blue;
-}
-
-@media(max-width: 1200px) {
-
-    .movie-list{
-        grid-template-columns: repeat(3, 1fr);
-        margin-bottom: 50px;
-    }
-
-    .movie-list-title{
-        color: white;
-        margin-top: 50px;
-    }
-
-    .movie-list-item{
-        margin-right: 5px;
-    }
-
-    .movie-list-item:hover .movie-list-item-img{
-        transform: scale(1.2);
-        margin: 30px 30px;
-        opacity: 0.5;
-    }
-
-}
-
-@media(max-width: 920px) {
-
-    .movie-list{
-        grid-template-columns: repeat(2, 1fr);
-        margin-bottom: 50px;
-    }
-
-    .movie-list-item{
-        margin-right: 5px;
-    }
-
-}
-
-@media(max-width: 660px) {
-
-    .movie-list{
-        display: inline-block;
-        margin-bottom: 50px;
-    }
-
-}
-
-@media(max-width: 425px) {
-
-    .movie-list-item-img{
-        width: 220px;
-        height: 180px;
-        object-fit: cover;
-        transition: all 1s ease-in-out;
-    }
-    
-    .movie-list-item-desc{
-        background-color: #333;
-        padding: 10px;
-        font-size: 14px;
-        position: absolute;
-        top: 30%;
-        left: 50px;
-        width: 200px;
-        color: white;
-        opacity: 0;
-        transition: all 1s ease-in-out;
-    }
-
 }

@@ -14,7 +14,7 @@ function Features() {
           porro obcaecati nostrum illum tenetur eligendi? Molestiae quibusdam
           illo quis.
         </p>
-        <Link to="/pelicula" className="featured-button">
+        <Link to="/pelicula/django" className="featured-button">
           Ver
         </Link>
       </div>
@@ -26,11 +26,6 @@ function Features() {
         <Link className="link-filtro">Accion</Link>
         <Link className="link-filtro">Drama</Link>
         <Link className="link-filtro">Comedia</Link>
-        <Link className="link-filtro">Terror</Link>
-        <Link className="link-filtro">Aventura</Link>
-        <Link className="link-filtro">Belica</Link>
-        <Link className="link-filtro">Policial</Link>
-        <Link className="link-filtro">Ciencia Ficcion</Link>
       </div>
     </div>
   );
