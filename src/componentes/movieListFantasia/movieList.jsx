@@ -17,6 +17,10 @@ function MovieList() {
     }
   };
 
+  const onClick = () => {
+    window.location.href = "/movie";
+  }
+
   return (
     <div className="movie-list-container">
       <h1 className="movie-list-title">FANTASIA</h1>
@@ -30,7 +34,7 @@ function MovieList() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
-              <button className="movie-list-item-button">Watch</button>
+              <button className="movie-list-item-button" onClick={onClick}>Watch</button>
             </div>
             <div className="movie-list-item">
               <img

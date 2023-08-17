@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./componentes/home/home";
+import Video from "./componentes/video/video";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Routes>
 
         <Route path="/" element={<Home />} />
+        <Route path="/movie" element={<Video />} />
 
       </Routes>
 

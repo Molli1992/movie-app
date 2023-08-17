@@ -3,6 +3,9 @@ import "./navbar.css";
 import ProfileIMG from "../../imagenes/profile/profile-img.jpg";
 
 function Navbar() {
+  const onClick = () => {
+    window.location.href = "/";
+  }
   return (
     <div className="navbar">
       <div className="navbar-container">
@@ -11,7 +14,7 @@ function Navbar() {
         </div>
         <div className="menu-container">
           <ul className="menu-list">
-            <li className="menu-list-item active">Home</li>
+            <li className="menu-list-item active" onClick={onClick}>Home</li>
             <li className="menu-list-item">Movies</li>
             <li className="menu-list-item">Series</li>
             <li className="menu-list-item">Popular</li>
