@@ -35,7 +35,9 @@ function MovieListDrama() {
                 Accusamus mollitia alias obcaecati magni delectus minima
                 quisquam asperiores
               </p>
-              <Link to="/pelicula" className="movie-list-item-button">Watch</Link>
+              <Link to="/pelicula" className="movie-list-item-button">
+                Ver
+              </Link>
             </div>
             <div className="movie-list-item">
               <img className="movie-list-item-img" src={IMG2} alt="Gladiator" />
@@ -45,7 +47,9 @@ function MovieListDrama() {
                 Accusamus mollitia alias obcaecati magni delectus minima
                 quisquam asperiores
               </p>
-              <Link to="/pelicula" className="movie-list-item-button">Watch</Link>
+              <Link to="/pelicula" className="movie-list-item-button">
+                Ver
+              </Link>
             </div>
             <div className="movie-list-item">
               <img
@@ -61,7 +65,9 @@ function MovieListDrama() {
                 Accusamus mollitia alias obcaecati magni delectus minima
                 quisquam asperiores
               </p>
-              <Link to="/pelicula" className="movie-list-item-button">Watch</Link>
+              <Link to="/pelicula" className="movie-list-item-button">
+                Ver
+              </Link>
             </div>
             <div className="movie-list-item">
               <img
@@ -75,7 +81,9 @@ function MovieListDrama() {
                 Accusamus mollitia alias obcaecati magni delectus minima
                 quisquam asperiores
               </p>
-              <Link to="/pelicula" className="movie-list-item-button">Watch</Link>
+              <Link to="/pelicula" className="movie-list-item-button">
+                Ver
+              </Link>
             </div>
           </div>
         ) : (
@@ -88,7 +96,9 @@ function MovieListDrama() {
                 Accusamus mollitia alias obcaecati magni delectus minima
                 quisquam asperiores
               </p>
-              <Link to="/pelicula" className="movie-list-item-button">Watch</Link>
+              <Link to="/pelicula" className="movie-list-item-button">
+                Ver
+              </Link>
             </div>
             <div className="movie-list-item">
               <img
@@ -104,12 +114,14 @@ function MovieListDrama() {
                 Accusamus mollitia alias obcaecati magni delectus minima
                 quisquam asperiores
               </p>
-              <Link to="/pelicula" className="movie-list-item-button">Watch</Link>
+              <Link to="/pelicula" className="movie-list-item-button">
+                Ver
+              </Link>
             </div>
           </div>
         )}
 
-          <i className="fa-solid fa-chevron-right arrow" onClick={slider}></i>
+        <i className="fa-solid fa-chevron-right arrow" onClick={slider}></i>
       </div>
     </div>
   );

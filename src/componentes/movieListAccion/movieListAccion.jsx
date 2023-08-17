@@ -32,7 +32,7 @@ function MovieListAccion() {
                 quisquam asperiores
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
             <div className="movie-list-item">
@@ -44,7 +44,7 @@ function MovieListAccion() {
                 quisquam asperiores
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
             <div className="movie-list-item">
@@ -56,7 +56,7 @@ function MovieListAccion() {
                 quisquam asperiores
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
             <div className="movie-list-item">
@@ -72,7 +72,7 @@ function MovieListAccion() {
                 quisquam asperiores
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
           </div>
@@ -87,7 +87,7 @@ function MovieListAccion() {
                 quisquam asperiores
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
             <div className="movie-list-item">
@@ -105,7 +105,7 @@ function MovieListAccion() {
                 quisquam asperiores
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
           </div>

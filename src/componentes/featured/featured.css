@@ -28,6 +28,13 @@
     cursor: pointer;
 }
 
+.container-feature-tittle{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
 .container-filtros-features{
     display: flex;
     justify-content: center;

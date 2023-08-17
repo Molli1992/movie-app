@@ -32,7 +32,7 @@ function MovieList() {
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
             <div className="movie-list-item">
@@ -47,7 +47,7 @@ function MovieList() {
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
             <div className="movie-list-item">
@@ -62,7 +62,7 @@ function MovieList() {
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
             <div className="movie-list-item">
@@ -77,7 +77,7 @@ function MovieList() {
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
           </div>
@@ -95,7 +95,7 @@ function MovieList() {
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
             <div className="movie-list-item">
@@ -110,7 +110,7 @@ function MovieList() {
                 Accusamus mollitia alias obcaecati magni delectus minima
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
           </div>

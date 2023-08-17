@@ -5,7 +5,7 @@ import ImgTittle from "../../imagenes/django-tittle-removebg-preview.png";
 
 function Features() {
   return (
-    <div>
+    <div className="body-feature">
       <div className="featured-content">
         <img className="featured-tittle" src={ImgTittle} alt="tittle" />
         <p className="featured-desc">
@@ -17,6 +17,9 @@ function Features() {
         <Link to="/pelicula" className="featured-button">
           Ver
         </Link>
+      </div>
+      <div className="container-feature-tittle">
+        <h1>Elegi tu genero favorito:</h1>
       </div>
       <div className="container-filtros-features">
         <Link className="link-filtro">Fantasia</Link>

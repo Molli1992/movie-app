@@ -36,7 +36,7 @@ function MovieListComedia() {
                 quisquam asperiores
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
             <div className="movie-list-item">
@@ -48,7 +48,7 @@ function MovieListComedia() {
                 quisquam asperiores
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
             <div className="movie-list-item">
@@ -64,7 +64,7 @@ function MovieListComedia() {
                 quisquam asperiores
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
             <div className="movie-list-item">
@@ -80,7 +80,7 @@ function MovieListComedia() {
                 quisquam asperiores
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
           </div>
@@ -99,7 +99,7 @@ function MovieListComedia() {
                 quisquam asperiores
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
             <div className="movie-list-item">
@@ -115,13 +115,13 @@ function MovieListComedia() {
                 quisquam asperiores
               </p>
               <Link to="/pelicula" className="movie-list-item-button">
-                Watch
+                Ver
               </Link>
             </div>
           </div>
         )}
 
-          <i className="fa-solid fa-chevron-right arrow" onClick={slider}></i>
+        <i className="fa-solid fa-chevron-right arrow" onClick={slider}></i>
       </div>
     </div>
   );
