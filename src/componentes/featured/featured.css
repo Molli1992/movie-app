@@ -51,7 +51,7 @@
     color: gray;
 }
 
-@media(max-width: 715px) {
+@media(max-width: 880px) {
 
     .container-filtros-features{
         display: grid;

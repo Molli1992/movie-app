@@ -30,6 +30,7 @@ function Features() {
         <Link className="link-filtro">Aventura</Link>
         <Link className="link-filtro">Belica</Link>
         <Link className="link-filtro">Policial</Link>
+        <Link className="link-filtro">Ciencia Ficcion</Link>
       </div>
     </div>
   );
