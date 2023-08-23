@@ -5,20 +5,21 @@ import arrayFantasia from "../../peliculas/peliculasFantasia";
 
 function MovieList() {
 
-  var clickCounter = 4;
+  var clickCounter = 0;
 
   const onClickArrwo = () => {
+    const ratio = Math.floor(window.innerWidth / 270)
     const moviesList = document.querySelector(".movie-list-fantasia");
     const itemNumber = moviesList.querySelectorAll("img").length;
-    clickCounter++;
-    console.log(clickCounter);
+    console.log(ratio);
 
-    if (clickCounter <= itemNumber) {
+    if (itemNumber - (4 + clickCounter) + (4 - ratio) >= 0) {
       moviesList.style.transform = `translateX(
         ${moviesList.computedStyleMap().get("transform")[0].x.value - 300}px)`;
+      clickCounter++;
     } else {
       moviesList.style.transform = "translateX(0)";
-      clickCounter = 4;
+      clickCounter = 0;
     }
 
   };
