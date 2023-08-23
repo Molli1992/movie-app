@@ -1,40 +1,68 @@
-.movie-list-container{
+.movie-list-container {
     padding: 20px;
 }
 
-.movie-list-title{
+.movie-list-title {
     color: white;
 }
 
-.movie-list-wrapper{
+.movie-list-wrapper {
     position: relative;
+    overflow: hidden;
 }
 
-.movie-list{
+.movie-list-fantasia {
     display: flex;
     align-items: center;
     height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
 }
 
-.movie-list-item{
+.movie-list-drama {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.movie-list-accion {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.movie-list-comedia {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.movie-list-item {
     margin-right: 30px;
     position: relative;
 }
 
-.movie-list-item:hover .movie-list-item-img{
+.movie-list-item:hover .movie-list-item-img {
     transform: scale(1.2);
     margin: 0 30px;
     opacity: 0.5;
 }
 
-.movie-list-item-img{
+.movie-list-item-img {
     width: 270px;
     height: 200px;
     object-fit: cover;
     transition: all 1s ease-in-out;
+    border-radius: 20px;
 }
 
-.movie-list-item-title{
+.movie-list-item-title {
     background-color: #333;
     padding: 0 10px;
     font-size: 20px;
@@ -47,7 +75,7 @@
     transition: all 1s ease-in-out;
 }
 
-.movie-list-item-desc{
+.movie-list-item-desc {
     background-color: #333;
     padding: 10px;
     font-size: 14px;
@@ -60,7 +88,7 @@
     transition: all 1s ease-in-out;
 }
 
-.movie-list-item-button{
+.movie-list-item-button {
     text-decoration: none;
     padding: 10px;
     background-color: #4dbf00;
@@ -78,11 +106,11 @@
 
 .movie-list-item:hover .movie-list-item-title,
 .movie-list-item:hover .movie-list-item-desc,
-.movie-list-item:hover .movie-list-item-button{
+.movie-list-item:hover .movie-list-item-button {
     opacity: 1;
 }
 
-.arrow{
+.arrow {
     font-size: 120px;
     position: absolute;
     top: 90px;
@@ -92,6 +120,6 @@
     opacity: 0.5;
 }
 
-.arrow:hover{
+.arrow:hover {
     color: blue;
 }
