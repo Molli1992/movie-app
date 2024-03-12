@@ -1,75 +1,73 @@
-.featured-content{
-    height: 50vh;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0), #151515),
+.featured-content {
+  min-height: 50vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
     url("https://static.vecteezy.com/system/resources/previews/003/228/038/non_2x/halloween-background-chain-with-dark-red-background-free-vector.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
 }
 
-.featured-tittle{
-    width: 200px;
+.featured-tittle {
+  width: 200px;
 }
 
-.featured-desc{
-    color: lightgray;
-    max-width: 500px;
-    margin: 30px 0px;
+.featured-desc {
+  color: lightgray;
+  max-width: 500px;
+  margin: 30px 0px;
 }
 
-.featured-button{
-    text-decoration: none;
-    background-color: #4dbf00;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+.featured-button {
+  text-decoration: none;
+  background-color: #4dbf00;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
-.container-feature-tittle{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-    color: white;
+.container-feature-tittle {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+  padding: 0px 10px;
+  box-sizing: border-box;
 }
 
-.container-filtros-features{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container-filtros-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.link-filtro{
-    text-decoration: none;
-    color: white;
-    margin-right: 30px;
+.link-filtro {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
 }
 
-.link-filtro:hover{
-    color: gray;
+.link-filtro:hover {
+  color: gray;
 }
 
-@media(max-width: 880px) {
-
-    .container-filtros-features{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        margin-left: 50px;
-        gap: 10px;
-    }
-
+@media (max-width: 880px) {
+  .container-filtros-features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 50px;
+    gap: 10px;
+  }
 }
 
-@media(max-width: 485px) {
-
-    .container-filtros-features{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin-left: 50px;
-        margin-top: 30px;
-        gap: 10px;
-    }
-
+@media (max-width: 485px) {
+  .container-filtros-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 50px;
+    margin-top: 30px;
+    gap: 10px;
+  }
 }
