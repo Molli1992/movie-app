@@ -7,6 +7,7 @@ import arrayFantasia from "../../peliculas/peliculasFantasia";
 import arrayDrama from "../../peliculas/peliculasDrama";
 import arrayComedia from "../../peliculas/peliculasComedia";
 import arrayAccion from "../../peliculas/peliculasAccion";
+import arrayPromocion from "../../peliculas/peliculaPromocionada";
 
 function Video() {
   const { id } = useParams();
@@ -52,7 +53,15 @@ function Video() {
     }
   }
 
-  console.log(state);
+  if (state === false) {
+    const pelicula = arrayPromocion.find((dato) => {
+      return dato.titulo.includes(id);
+    });
+
+    if (pelicula) {
+      setState(pelicula);
+    }
+  }
 
   if (state !== false) {
     return (

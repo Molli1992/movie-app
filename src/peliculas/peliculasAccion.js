@@ -15,7 +15,7 @@ const arrayAccion = [
   },
   {
     titulo: "Pánico en el Metro",
-    img: "https://i.ytimg.com/vi/0F1x6D-HYIM/sddefault.jpg",
+    img: "https://static.filmin.es/images/media/9814/1/still_0_3_1920x1080.webp",
     descripcion: "Destruccion y terrorismo",
     video: "https://www.youtube.com/embed/0F1x6D-HYIM",
   },

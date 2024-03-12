@@ -4,29 +4,33 @@ import { Link } from "react-router-dom";
 import ImgTittle from "../../imagenes/django-tittle-removebg-preview.png";
 
 function Features() {
+  const filtros = false;
   return (
     <div className="body-feature">
       <div className="featured-content">
         <img className="featured-tittle" src={ImgTittle} alt="tittle" />
         <p className="featured-desc">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a id
-          modi necessitatibus sunt doloribus quod tempore error beatae ratione,
-          porro obcaecati nostrum illum tenetur eligendi? Molestiae quibusdam
-          illo quis.
+          Acompañado por un cazarrecompensas alemán, un esclavo liberado, Django
+          viaja a través de Estados Unidos para liberar a su esposa del sádico
+          propietario de una plantación. Ve todo lo que quieras. Quentin
+          Tarantino y Christoph Waltz ganaron óscares por esta violenta
+          incursión del director en los spaghetti wésterns.
         </p>
         <Link to="/pelicula/django" className="featured-button">
           Ver
         </Link>
       </div>
       <div className="container-feature-tittle">
-        <h1>Elegi tu genero favorito:</h1>
+        <h1>Busca tu pelicula favorita:</h1>
       </div>
-      <div className="container-filtros-features">
-        <Link className="link-filtro">Fantasia</Link>
-        <Link className="link-filtro">Accion</Link>
-        <Link className="link-filtro">Drama</Link>
-        <Link className="link-filtro">Comedia</Link>
-      </div>
+      {filtros ? (
+        <div className="container-filtros-features">
+          <Link className="link-filtro">Fantasia</Link>
+          <Link className="link-filtro">Accion</Link>
+          <Link className="link-filtro">Drama</Link>
+          <Link className="link-filtro">Comedia</Link>
+        </div>
+      ) : null}
     </div>
   );
 }
