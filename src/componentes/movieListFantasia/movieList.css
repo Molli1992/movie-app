@@ -55,11 +55,12 @@
 }
 
 .movie-list-item-img {
-  width: 270px;
+  min-width: 270px;
   height: 200px;
   object-fit: cover;
   transition: all 1s ease-in-out;
   border-radius: 20px;
+  background-color: #ffffff;
 }
 
 .movie-list-item-title {

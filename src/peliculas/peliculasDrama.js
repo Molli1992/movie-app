@@ -3,7 +3,7 @@
 const arrayDrama = [
   {
     titulo: "La Caida",
-    img: "https://www.unicen.edu.ar/iehs/img/filmoteca/la%20caida.jpg",
+    img: "https://iehs.unicen.edu.ar/img/filmoteca/la%20caida.jpg",
     descripcion:
       "Pelicula Belica y Dramatica sobre la caida de Berlin en el fin de la segunda guerra mundial",
     video: "https://www.youtube.com/embed/wO1cYOH5yGo",
